@@ -1,0 +1,18 @@
+.bottomTabsContainer {
+	@apply fixed bg-black bottom-0 h-12 flex gap-10 justify-around items-center  border-primary;
+	border-top-width: 0.5px;
+	width: 375px;
+
+	svg {
+		@apply text-primaryText text-2xl;
+	}
+
+	.active {
+		@apply border-2 border-primaryText rounded-full;
+		padding: 2px;
+	}
+	.defButAv {
+		@apply border-2 border-transparent rounded-full;
+		padding: 2px;
+	}
+}

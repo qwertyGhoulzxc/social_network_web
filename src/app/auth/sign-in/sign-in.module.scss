@@ -1,0 +1,12 @@
+.signInForm {
+	@apply w-80 px-4 font-roboto font-normal tracking-wide  py-4 text-primaryText;
+}
+.logoContainer {
+	@apply flex flex-col items-center mb-4;
+	h2 {
+		@apply font-mono text-2xl mt-2 text-primaryText;
+	}
+}
+.singInContainer {
+	@apply flex-col flex items-center m-auto;
+}

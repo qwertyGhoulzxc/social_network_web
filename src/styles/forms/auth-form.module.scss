@@ -1,0 +1,17 @@
+.defInput {
+	@apply w-full bg-primary outline-none p-2  border-borderCl rounded-md text-slate-200 my-1;
+	border-width: 0.5px;
+	&:-webkit-autofill,
+	&:-webkit-autofill:hover,
+	&:-webkit-autofill:focus,
+	textarea:-webkit-autofill,
+	textarea:-webkit-autofill:hover,
+	textarea:-webkit-autofill:focus,
+	select:-webkit-autofill,
+	select:-webkit-autofill:hover,
+	select:-webkit-autofill:focus {
+		border: 1px solid rgb(100 116 139);
+		-webkit-text-fill-color: rgb(226 232 240);
+		transition: background-color 5000s ease-in-out 0s;
+	}
+}
